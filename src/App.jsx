@@ -1,19 +1,15 @@
 import './App.css'
-import ClassComponent, { ChildComponent } from './Components/ClassComponent'
-import FuncComponent from './Components/FuncComponent'
+import Home from './Pages/Home'
+import Navbar from './Components/Navbar/Navbar'
+
 
 function App() {
 
-  const titulo1 = 'Inicio'
-  const titulo2 = 'Búsqueda'
-  const salario = 150000
   return (
-    <>
-      {/* <ClassComponent/>
-      <ChildComponent/> */}
-      <FuncComponent titulo={titulo1} salario={salario}/>
-      <FuncComponent titulo={titulo2} />
-    </>
+    <div className='App'>
+      <Navbar/>
+      <Home/>
+    </div>
   )
 }
 

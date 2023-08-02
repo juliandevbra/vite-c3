@@ -6,5 +6,13 @@
 }
 
 .App{
+  color: white
+}
+
+img{
+  width: 500px;
+}
+
+h4{
   color: red
 }
