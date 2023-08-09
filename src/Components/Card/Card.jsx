@@ -20,7 +20,7 @@ const Card = ({pizza, add}) => {
 
         <button onClick={restar} disabled={count==0}>-</button>
         <h3>{count}</h3>
-        <button onClick={sumar}>+</button>
+        <button onClick={() => setCount(count+1)}>+</button>
         <br/>
 
         <button onClick={() => add(pizza)}>Añadir al carrito</button>
